@@ -56,8 +56,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar wil ik me nog wel in verdiepen. 
 
+<img src="readme-images/716986578.091584.jpg">
+<img src="readme-images/716986588.058630.jpg">
+<img src="readme-images/716986593.469784.jpg">
+<img src="readme-images/716986603.143518.jpg">
+<img src="readme-images/716986608.669058.jpg">
 </details>
 
 
@@ -98,14 +103,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - ik moet meer opdrachten doen en verdiepen in de stof. 
+  - Ook kwam eruit dat we de volgende les aan mijn site moesten werken omdat de student assistenten niet goed konden zien waar het nou aan lag dat iets niet werkte
 
 </details>
-
-
 
 
 
@@ -115,7 +116,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Eigenlijk is mijn site bijna af, dus het gaat super goed. Ik vind alleen een menu maken nog heel lastig. Hier moet ik dus een aantal vragen over stellen. 
 
 
   ### Agenda voor meeting
