@@ -95,7 +95,7 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
 
   | Sophie 1       | Rhania 2           | Amber 3      | Elles 4          |
   | ---            | ---                | ---          | ---              |
-  | Flexbox en r-  | flexbox            | moeite met t-| logo midden pla- |
+  | Flexbox en r   | flexbox            | moeite met t-| logo midden pla- |
   | esponsive      |                    | ekst en scha-| atsen schalen    |
   | ...            | ...                | len          | ...              |
 
@@ -122,19 +122,19 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Sophie 1       | Rhania 2           | Elles 3      | Amber 4          |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Ik hoef niet   | en dit             | en ik dit    | en dan ik dat    |
+  | echt te bespre | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ken            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Het was best een chaotsiche en onhandige meeting omdat hij online was en we allemaal best veel moeite hadden met github en teams
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Uitklapbaar menu maken en vormgeven
+  - media query toevoegen om de site zo responsive mogelijk te maken
+  - Focussen op de dark light mode en deze goed laten werken
 - ...
 
 </details>
@@ -149,7 +149,7 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Eerst had mijn site 90 errors, en mijn 'namaak' heeft 0 erros (als het goed is). Ook had mijn site geen dark/light mode die heb ik er aan toegevoegd. Ook had ik nog niet al mijn images een alt tribute gegeven dus dat heb ik ook aangepast. 
 
 </details>
 
@@ -163,7 +163,7 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Eigenlijk is mijn webiste zo goed als af. Hij is precies zoals ik hoopte en beter. 
 
 
   ### Agenda voor meeting
@@ -224,8 +224,6 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Ik heb eigenlijk geen bronnen gebruikt. Alleen alles wat in de les werd besproken dus dan gewoon de powerpoints en oefeningen als bronnen.
 
 </details>
