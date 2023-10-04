@@ -213,13 +213,15 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.21.29.png" width="375px" alt="top">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.21.45.png" width="375px" alt="top">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.21.53.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.22.57.png" width="375px" alt="bummer">
 </details>
 
 
