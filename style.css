@@ -229,12 +229,27 @@ h3 {
     align-items: flex-end; /* Uitlijning van items aan de onderkant */
     padding-left: 3em; /* Linkervulling */
     padding-bottom: 3em; /* Ondervulling */
+    opacity: 1;
 }
 
 section article a:hover h3, section article a:focus h3 {
     opacity: .9; /* Opaciteit verhogen bij hover */
 }
 
+@media (max-width: 30em) {
+    article h4 {
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding-left: .5em;
+        font-size: 30px;
+    }
+}
 
 /* Mediaquery voor schermen groter dan 30em voor afbeeldingen binnen de about-sectie */
 @media (min-width: 30em) {
@@ -300,3 +315,44 @@ section article a:hover h3, section article a:focus h3 {
     margin-top: 1.5em; 
     line-height: 2; 
 }
+
+form {
+    display: flex;
+    flex-wrap: wrap; /* Laat items naar de volgende regel gaan als de ruimte op is */
+    gap: 1em; /* Voeg ruimte toe tussen de items binnen het formulier */
+    align-items: flex-start; /* Richt de items uit langs de bovenkant van de flex-container */
+    padding-top: 2em; /* Voeg bovenvulling toe aan het formulier */
+    padding-bottom: 2em; /* Voeg ondervulling toe aan het formulier */
+  }
+  
+  /* Selecteer het tweede div-element en pas de stijl aan */
+  div:nth-of-type(2) {
+    display: flex; /* Stel de weergave van dit div-element in als flex-container */
+    flex-direction: column; /* Laat de kinderen van dit div-element in een kolom staan */
+    align-items: center; /* Centreer de kinderen van dit div-element horizontaal */
+  }
+  
+  /* Pas de stijl van alle input-elementen binnen het formulier aan */
+  input {
+    border: none; /* Verwijder de rand van de input-elementen */
+    background: #f1f1f1; /* Stel de achtergrondkleur in op lichtgrijs */
+    border-radius: .5em; /* Voeg afgeronde hoeken toe aan de input-elementen */
+    padding: .75em 1em; /* Voeg opvulling toe aan de input-elementen */
+  
+    /* Selecteer het input-element met het type "submit" en pas de stijl aan */
+    &[type="submit"] {
+      background: #f9f8bb; /* Stel de achtergrondkleur van de verzendknop in */
+      color: black; /* Stel de tekstkleur van de verzendknop in */
+      cursor: pointer;
+    }
+  }
+  
+  /* Voer de volgende CSS-regels uit voor schermgroottes groter dan of gelijk aan 30em */
+  @media (min-width: 30em) {
+    /* Selecteer het tweede div-element en pas de stijl aan */
+    div:nth-of-type(2) {
+      bottom: 23em; /* Plaats het div-element onderaan de pagina */
+      padding-left: 45em; /* Voeg linkermarge toe aan het div-element */
+      position: absolute; /* Positioneer het div-element absoluut op de pagina */
+    }
+  }

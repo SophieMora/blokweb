@@ -151,6 +151,12 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
   ### Bevindingen
   Eerst had mijn site 90 errors, en mijn 'namaak' heeft 0 erros (als het goed is). Ook had mijn site geen dark/light mode die heb ik er aan toegevoegd. Ook had ik nog niet al mijn images een alt tribute gegeven dus dat heb ik ook aangepast. 
 
+  <img src="readme-images/IMG_8503.HEIC">
+  <img src="readme-images/IMG_8504.HEIC">
+  <img src="readme-images/IMG_8505.HEIC">
+  <img src="readme-images/IMG_8506.HEIC">
+  <img src="readme-images/IMG_8507.HEIC">
+
 </details>
 
 
@@ -169,20 +175,18 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Sophie 1       | Rhania 2           | Elles 3      | Amber 4          |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | puntjes op de  |                    | Responsive   | caption en trans-|
+  | i zetten       | plaatjes           |              | cript            |
+  | ...            | ...                | ...          | px en em         |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - ik moest toch nog voor mobiel een aantal aanpassingen maken, namelijk: tekst over de plaatjes aangezien je niet kunt tabben op telefoon. 
+  - ook heb ik nog een extra form toegevoegd. 
 
 </details>
 
@@ -196,7 +200,14 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.16.59.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.17.09.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.17.22.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.17.42.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.17.53.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.18.01.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.18.24.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/Screenshot 2023-10-04 at 14.18.38.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -225,5 +236,6 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
   Nb. Vermeld de bronnen ook in je code.
 
   1. Ik heb eigenlijk geen bronnen gebruikt. Alleen alles wat in de les werd besproken dus dan gewoon de powerpoints en oefeningen als bronnen.
+  2. https://codepen.io/argyleink/pen/LYEegOO
 
 </details>
