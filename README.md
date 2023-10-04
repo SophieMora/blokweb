@@ -151,11 +151,11 @@ Best een antal errors, 90 namelijk. Ik had alleen geen light/dark mode dus daar 
   ### Bevindingen
   Eerst had mijn site 90 errors, en mijn 'namaak' heeft 0 erros (als het goed is). Ook had mijn site geen dark/light mode die heb ik er aan toegevoegd. Ook had ik nog niet al mijn images een alt tribute gegeven dus dat heb ik ook aangepast. 
 
-  <img src="readme-images/IMG_8503.HEIC">
-  <img src="readme-images/IMG_8504.HEIC">
-  <img src="readme-images/IMG_8505.HEIC">
-  <img src="readme-images/IMG_8506.HEIC">
-  <img src="readme-images/IMG_8507.HEIC">
+  <img src="readme-images/IMG_8503.jpg">
+  <img src="readme-images/IMG_8504.jpg">
+  <img src="readme-images/IMG_8505.jpg">
+  <img src="readme-images/IMG_8506.jpg">
+  <img src="readme-images/IMG_8507.jpg">
 
 </details>
 
