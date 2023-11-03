@@ -4,8 +4,10 @@
 
 /* Algemene stijl voor alle elementen op de pagina */
 * {
-    box-sizing: border-box; /* Bepaalt de box-sizing om inclusief padding en border te zijn */
-    margin: 0; /* Verwijdert alle marges */
+    box-sizing: border-box;
+    /* Bepaalt de box-sizing om inclusief padding en border te zijn */
+    margin: 0;
+    /* Verwijdert alle marges */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -20,24 +22,30 @@ html {
 /*********************/
 
 :root {
-    --hoofdKleur: black; /* Hoofdkleur (standaard zwart) */
-    --accentKleur: #f9f8bb; /* Accentkleur (standaard lichtgeel) */
-    --achtergrondKleur: white; /* Achtergrondkleur (standaard wit) */
+    --hoofdKleur: black;
+    /* Hoofdkleur (standaard zwart) */
+    --accentKleur: #f9f8bb;
+    /* Accentkleur (standaard lichtgeel) */
+    --achtergrondKleur: white;
+    /* Achtergrondkleur (standaard wit) */
 }
 
 /* Aangepaste variabelen aanpassen op basis van de voorkeurskleurmodus (donkere modus) */
 @media (prefers-color-scheme: dark) {
     :root {
-        --hoofdKleur: black; /* Hoofdkleur (donkere modus) */
-        --accentKleur: rgb(33, 33, 33); /* Accentkleur (donkere modus) */
-        --achtergrondKleur: black; /* Achtergrondkleur (donkere modus) */
+        --hoofdKleur: black;
+        /* Hoofdkleur (donkere modus) */
+        --accentKleur: rgb(33, 33, 33);
+        /* Accentkleur (donkere modus) */
+        --achtergrondKleur: black;
+        /* Achtergrondkleur (donkere modus) */
     }
 
     nav {
         filter: invert(1);
     }
 
-    h3 {
+    h2 {
         color: white;
     }
 
@@ -45,14 +53,16 @@ html {
         color: white;
     }
 
-    h4 {
+    h2 {
         color: white;
     }
 }
 
 body {
-    color: var(--hoofdKleur); /* Tekstkleur op basis van de hoofdkleur */
-    background-color: var(--achtergrondKleur); /* Achtergrondkleur op basis van de achtergrondkleur */
+    color: var(--hoofdKleur);
+    /* Tekstkleur op basis van de hoofdkleur */
+    background-color: var(--achtergrondKleur);
+    /* Achtergrondkleur op basis van de achtergrondkleur */
 }
 
 /****************/
@@ -62,182 +72,273 @@ body {
 
 /*navigatie*/
 nav {
-    color: white; /* Tekstkleur voor navigatiemenu-items */
+    color: white;
+    /* Tekstkleur voor navigatiemenu-items */
 }
 
 nav:nth-of-type(1) {
-    display: flex; /* Maakt het menu-item een flex-container */
-    gap: 3em; /* Ruimte tussen de menu-items */
-    padding: .5em; /* Binnenste vulling */
-    justify-content: space-between; /* Verdeelt de ruimte tussen de menu-items */
+    display: flex;
+    /* Maakt het menu-item een flex-container */
+    gap: 3em;
+    /* Ruimte tussen de menu-items */
+    padding: .5em;
+    /* Binnenste vulling */
+    justify-content: space-between;
+    /* Verdeelt de ruimte tussen de menu-items */
 }
 
 nav:nth-of-type(1) a:first-of-type {
-    margin-left: auto; /* Duwt dit anker naar rechts in de flex-container */
+    margin-left: auto;
+    /* Duwt dit anker naar rechts in de flex-container */
 }
 
 nav img:first-of-type {
-    max-width: 100%; /* Maximale breedte van 100% van de container */
-    height: auto; /* Behoudt de oorspronkelijke hoogte-breedteverhouding */
-    display: block; /* Maakt het een blokelement */
+    max-width: 100%;
+    /* Maximale breedte van 100% van de container */
+    height: auto;
+    /* Behoudt de oorspronkelijke hoogte-breedteverhouding */
+    display: block;
+    /* Maakt het een blokelement */
 }
 
 ul.open {
-    display: flex; /* Maakt de lijst een flex-container */
-    padding: 0; /* Verwijdert de binnenste vulling */
-    left: 0; /* Plaatst de lijst aan de linkerkant van het scherm */
+    display: flex;
+    /* Maakt de lijst een flex-container */
+    padding: 0;
+    /* Verwijdert de binnenste vulling */
+    left: 0;
+    /* Plaatst de lijst aan de linkerkant van het scherm */
 }
 
 header ul {
-    width: 100vw; /* Volledige viewport breedte */
-    height: 95vh; /* 95% van de viewport hoogte */
-    position: absolute; /* Absoluut gepositioneerd in de header */
-    display: none; /* Standaard verborgen */
-    top: 100%; /* Onder de header */
-    z-index: 2; /* Stacking context met hogere z-index */
-    background-color: white; /* Achtergrondkleur */
-    flex-direction: column; /* Kolommen voor de items */
-    align-items: center; /* Centreren van items */
-    justify-content: center; /* Centreren van items */
+    width: 100vw;
+    /* Volledige viewport breedte */
+    height: 95vh;
+    /* 95% van de viewport hoogte */
+    position: absolute;
+    /* Absoluut gepositioneerd in de header */
+    display: none;
+    /* Standaard verborgen */
+    top: 100%;
+    /* Onder de header */
+    z-index: 2;
+    /* Stacking context met hogere z-index */
+    background-color: white;
+    /* Achtergrondkleur */
+    flex-direction: column;
+    /* Kolommen voor de items */
+    align-items: center;
+    /* Centreren van items */
+    justify-content: center;
+    /* Centreren van items */
 }
 
 header {
-    position: relative; /* Relatieve positionering voor kinderelementen */
+    position: relative;
+    z-index: 4;
+    /* Relatieve positionering voor kinderelementen */
 }
 
 /* Stijl voor knop */
 button {
-    background-color: transparent; /* Maakt de achtergrond transparant */
-    border: none; /* Verwijdert de rand */
-    padding: 0; /* Verwijdert de padding (vulling) */
-    margin: 0; /* Verwijdert de marge */
-    cursor: pointer; /* Verandert de cursor in een aanwijzer bij hover */
+    background-color: transparent;
+    /* Maakt de achtergrond transparant */
+    border: none;
+    /* Verwijdert de rand */
+    padding: 0;
+    /* Verwijdert de padding (vulling) */
+    margin: 0;
+    /* Verwijdert de marge */
+    cursor: pointer;
+    /* Verandert de cursor in een aanwijzer bij hover */
 }
 
 a {
-    text-decoration: none; /* Verwijdert onderstreping */
-    font-size: 30px; /* Lettergrootte */
-    color: black; /* Tekstkleur */
-    line-height: 2em; 
+    text-decoration: none;
+    /* Verwijdert onderstreping */
+    font-size: 30px;
+    /* Lettergrootte */
+    color: black;
+    /* Tekstkleur */
+    line-height: 2em;
 }
 
 section {
-    max-width: 100vw; /* Maximale viewport breedte */
-    display: grid; /* Grid-layout */
-    grid-template-columns: 1fr; /* Eén kolom */
-    padding-right: 1em; /* Rechtervulling */
-    padding-left: 1em; /* Linkervulling */
-    padding-bottom: 1em; /* Ondervulling */
-    gap: 1em; /* Ruimte tussen grid-items */
-    position: relative; /* Relatieve positionering voor kinderelementen */
-    flex-direction: column; /* Kolomrichting voor kinderelementen */
+    max-width: 100vw;
+    /* Maximale viewport breedte */
+    display: grid;
+    /* Grid-layout */
+    grid-template-columns: 1fr;
+    /* Eén kolom */
+    padding-right: 1em;
+    /* Rechtervulling */
+    padding-left: 1em;
+    /* Linkervulling */
+    padding-bottom: 1em;
+    /* Ondervulling */
+    gap: 1em;
+    /* Ruimte tussen grid-items */
+    position: relative;
+    /* Relatieve positionering voor kinderelementen */
+    flex-direction: column;
+    /* Kolomrichting voor kinderelementen */
 }
 
 /* Mediaquery voor groter scherm (minimale breedte van 30em) voor navigatie en sectie */
 @media screen and (min-width: 30em) {
     section {
-        grid-template-columns: 1fr 1fr; /* Twee kolommen */
-        gap: 3em; /* Ruimte tussen grid-items */
-        padding: 2em; /* Binnenste vulling */
-        column-gap: 2em; /* Kolomruimte */
-        flex-direction: row; /* Rijrichting voor kinderelementen */
+        grid-template-columns: 1fr 1fr;
+        /* Twee kolommen */
+        gap: 3em;
+        /* Ruimte tussen grid-items */
+        padding: 2em;
+        /* Binnenste vulling */
+        column-gap: 2em;
+        /* Kolomruimte */
+        flex-direction: row;
+        /* Rijrichting voor kinderelementen */
     }
 
     nav {
-        margin-top: 2em; 
-        margin-right: 4em; /* Rechtermarge */
-        justify-content: space-between; /* Verdeelt de ruimte tussen menu-items */
+        margin-top: 2em;
+        margin-right: 4em;
+        /* Rechtermarge */
+        justify-content: space-between;
+        /* Verdeelt de ruimte tussen menu-items */
     }
 
     nav img {
-        margin-left: 1.5em; /* Linkermarge */
-        max-width: 100%; /* Maximale breedte van 100% van de container */
-        height: auto; /* Behoudt de oorspronkelijke hoogte-breedteverhouding */
-        display: block; /* Maakt het een blokelement */
+        margin-left: 1.5em;
+        /* Linkermarge */
+        max-width: 100%;
+        /* Maximale breedte van 100% van de container */
+        height: auto;
+        /* Behoudt de oorspronkelijke hoogte-breedteverhouding */
+        display: block;
+        /* Maakt het een blokelement */
     }
 
     nav a {
-        color: black; /* Tekstkleur */
-        text-decoration: none; /* Verwijdert onderstreping */
+        color: black;
+        /* Tekstkleur */
+        text-decoration: none;
+        /* Verwijdert onderstreping */
     }
 
     nav a:hover {
-        background-color: var(--accentKleur); /* Achtergrondkleur bij hover */
+        background-color: var(--accentKleur);
+        /* Achtergrondkleur bij hover */
     }
 
     button {
-        display: none; /* Verbergt de knop */
+        display: none;
+        /* Verbergt de knop */
     }
 
     header ul {
-        flex-direction: row; /* Rijrichting voor menu-items */
-        display: flex; /* Toont de lijst als een flex-container */
-        height: fit-content; /* Hoogte aanpassen aan de inhoud */
-        width: fit-content; /* Breedte aanpassen aan de inhoud */
-        position: static; /* Statische positionering (niet absoluut) */
-        gap: 3em; /* Ruimte tussen menu-items */
+        flex-direction: row;
+        /* Rijrichting voor menu-items */
+        display: flex;
+        /* Toont de lijst als een flex-container */
+        height: fit-content;
+        /* Hoogte aanpassen aan de inhoud */
+        width: fit-content;
+        /* Breedte aanpassen aan de inhoud */
+        position: static;
+        /* Statische positionering (niet absoluut) */
+        gap: 3em;
+        /* Ruimte tussen menu-items */
         background-color: transparent;
         list-style-type: none;
     }
 
     a {
-        font-size: 15px; /* Lettergrootte */
+        font-size: 15px;
+        /* Lettergrootte */
     }
 }
 
 article {
-    max-height: 400px; /* Maximale hoogte van 400 pixels */
-    max-width: 655px; /* Maximale breedte van 655 pixels */
-    position: relative; /* Relatieve positionering voor kinderelementen */
-    overflow: hidden; /* Verbergt de overflow (indien aanwezig) */
+    max-height: 400px;
+    /* Maximale hoogte van 400 pixels */
+    max-width: 655px;
+    /* Maximale breedte van 655 pixels */
+    position: relative;
+    /* Relatieve positionering voor kinderelementen */
+    overflow: hidden;
+    /* Verbergt de overflow (indien aanwezig) */
 }
 
 section img {
-    max-width: 100%; /* Maximale breedte van 100% van de container */
-    height: auto; /* Behoudt de oorspronkelijke hoogte-breedteverhouding */
-    display: grid; /* Grid-layout */
-    grid-gap: 3em; /* Ruimte tussen grid-items */
-    object-fit: cover; /* Schaalt en bijsnijden om in het raster te passen */
-    position: relative; /* Relatieve positionering voor kinderelementen */
-    aspect-ratio: 1/1; /* Vaste beeldverhouding 1:1 */
-    object-position: 30% 54%; /* Aanpassing van de objectpositie */
-    cursor: pointer; /* Wijzigt de cursor naar een aanwijzer bij hover */
+    max-width: 100%;
+    /* Maximale breedte van 100% van de container */
+    height: auto;
+    /* Behoudt de oorspronkelijke hoogte-breedteverhouding */
+    display: grid;
+    /* Grid-layout */
+    grid-gap: 3em;
+    /* Ruimte tussen grid-items */
+    object-fit: cover;
+    /* Schaalt en bijsnijden om in het raster te passen */
+    position: relative;
+    /* Relatieve positionering voor kinderelementen */
+    aspect-ratio: 1/1;
+    /* Vaste beeldverhouding 1:1 */
+    object-position: 30% 54%;
+    /* Aanpassing van de objectpositie */
 }
 
 /* Mediaquery voor schermen groter dan 30em voor afbeeldingen binnen de sectie */
 @media (min-width: 30em) {
     section img {
-        aspect-ratio: 6/4; /* Aangepaste beeldverhouding 6:4 */
+        aspect-ratio: 6/4;
+        /* Aangepaste beeldverhouding 6:4 */
     }
 }
 
-/* Overlay-stijl voor h3-elementen binnen het artikel binnen de sectie */
-section article h3 {
-    position: absolute; /* Absoluut gepositioneerd */
-    right: 0; /* Aan de rechterkant plaatsen */
-    bottom: 0; /* Aan de onderkant plaatsen */
-    margin: 0; /* Verwijdert marges */
-    left: 0; /* Aan de linkerkant plaatsen */
-    top: 0; /* Aan de bovenkant plaatsen */
-    background-color: var(--accentKleur); /* Achtergrondkleur */
-    opacity: 0; /* Standaard onzichtbaar (transparant) */
-    transition: 0.2s; /* Overgangseffect van 0.2 seconden */
+/* Overlay-stijl voor h2-elementen binnen het artikel binnen de sectie */
+.index section article h2 {
+    position: absolute;
+    /* Absoluut gepositioneerd */
+    right: 0;
+    /* Aan de rechterkant plaatsen */
+    bottom: 0;
+    /* Aan de onderkant plaatsen */
+    margin: 0;
+    /* Verwijdert marges */
+    left: 0;
+    /* Aan de linkerkant plaatsen */
+    top: 0;
+    /* Aan de bovenkant plaatsen */
+    background-color: var(--accentKleur);
+    /* Achtergrondkleur */
+    opacity: 0;
+    /* Standaard onzichtbaar (transparant) */
+    transition: 0.2s;
+    /* Overgangseffect van 0.2 seconden */
 }
 
-h3 {
-    display: flex; /* Maakt het element een flex-container */
-    align-items: flex-end; /* Uitlijning van items aan de onderkant */
-    padding-left: 3em; /* Linkervulling */
-    padding-bottom: 3em; /* Ondervulling */
+.index h2 {
+    display: flex;
+    /* Maakt het element een flex-container */
+    align-items: flex-end;
+    /* Uitlijning van items aan de onderkant */
+    padding-left: 3em;
+    /* Linkervulling */
+    padding-bottom: 3em;
+    /* Ondervulling */
     opacity: 1;
+    font-size: 20px;
 }
 
-section article a:hover h3, section article a:focus h3 {
-    opacity: .9; /* Opaciteit verhogen bij hover */
+.index section article a:hover h2,
+section article a:focus h2 {
+    opacity: .9;
+    /* Opaciteit verhogen bij hover */
 }
 
 @media (max-width: 30em) {
-    article h4 {
+    article h3 {
         display: flex;
         align-items: flex-end;
         position: absolute;
@@ -246,113 +347,104 @@ section article a:hover h3, section article a:focus h3 {
         left: 0;
         top: 0;
         margin: 0;
-        padding-left: .5em;
-        font-size: 30px;
+        padding-left: 1em;
+        font-size: 20px;
     }
 }
 
 /* Mediaquery voor schermen groter dan 30em voor afbeeldingen binnen de about-sectie */
 @media (min-width: 30em) {
     .about img {
-        max-width: 50%; /* Maximale breedte van 50% van de container */
-        height: auto; /* Behoudt de oorspronkelijke hoogte-breedteverhouding */
-        aspect-ratio: 0; /* Aangepaste beeldverhouding (0 betekent automatische schaling) */
+        max-width: 50%;
+        /* Maximale breedte van 50% van de container */
+        height: auto;
+        /* Behoudt de oorspronkelijke hoogte-breedteverhouding */
+        aspect-ratio: 0;
+        /* Aangepaste beeldverhouding (0 betekent automatische schaling) */
         background-color: transparent;
     }
 }
 
+.about h2 {
+    display: flex;
+    /* Maakt het element een flex-container */
+    align-items: flex-end;
+    /* Uitlijning van items aan de onderkant */
+    font-size: 20px;
+}
+
 .about section:nth-of-type(1) {
-    display: flex; /* Maakt het element een flex-container */
-    align-items: start; /* Uitlijning van items aan de bovenkant */
+    display: flex;
+    /* Maakt het element een flex-container */
+    align-items: start;
+    /* Uitlijning van items aan de bovenkant */
 }
 
 .about section:nth-of-type(1) img {
-    height: auto; /* Behoudt de oorspronkelijke hoogte-breedteverhouding */
-    aspect-ratio: 0; /* Aangepaste beeldverhouding (0 betekent automatische schaling) */
+    height: auto;
+    /* Behoudt de oorspronkelijke hoogte-breedteverhouding */
+    aspect-ratio: 0;
+    /* Aangepaste beeldverhouding (0 betekent automatische schaling) */
 }
 
-.about section:nth-of-type(1) p:first-of-type {
-    margin-bottom: 2em; 
-    line-height: 2; 
-}
-
-.about section:nth-of-type(1) h4:first-of-type {
-    margin-top: 5em; 
-    line-height: 2; 
-}
-
-.about section:nth-of-type(1) p:nth-of-type(3) {
-    line-height: 2; 
-}
-
-.about section:nth-of-type(1) p:nth-of-type(4) {
-    line-height: 2; 
-}
-
-.about section:nth-of-type(1) p:nth-of-type(5) {
-    line-height: 2; 
-}
-
-.about section:nth-of-type(1) h4:nth-of-type(2) {
-    margin-top: 1.5em; 
-    line-height: 2; 
-}
-
-.about section:nth-of-type(1) p:nth-of-type(6) {
-    line-height: 2; 
-}
-
-.about section:nth-of-type(1) h4:nth-of-type(3) {
-    margin-top: 1.5em; 
-    line-height: 2; 
-}
-
+.about section:nth-of-type(1) p:first-of-type,
+.about section:nth-of-type(1) p:nth-of-type(3),
+.about section:nth-of-type(1) p:nth-of-type(4),
+.about section:nth-of-type(1) p:nth-of-type(5),
+.about section:nth-of-type(1) p:nth-of-type(6),
 .about section:nth-of-type(1) p:nth-of-type(7) {
-    line-height: 2; 
+    margin-bottom: .5em;
+    line-height: 2;
 }
 
-.about section:nth-of-type(1) h4:nth-of-type(4) {
-    margin-top: 1.5em; 
-    line-height: 2; 
+.about section:nth-of-type(1) h2:first-of-type,
+.about section:nth-of-type(1) h2:nth-of-type(2),
+.about section:nth-of-type(1) h2:nth-of-type(3),
+.about section:nth-of-type(1) h2:nth-of-type(4) {
+    font-size: 18px;
+    margin-top: 2em;
+    line-height: 2;
 }
+
+
+/* formulier op about pagina*/
 
 form {
     display: flex;
-    flex-wrap: wrap; /* Laat items naar de volgende regel gaan als de ruimte op is */
-    gap: 1em; /* Voeg ruimte toe tussen de items binnen het formulier */
-    align-items: flex-start; /* Richt de items uit langs de bovenkant van de flex-container */
-    padding-top: 2em; /* Voeg bovenvulling toe aan het formulier */
-    padding-bottom: 2em; /* Voeg ondervulling toe aan het formulier */
-  }
-  
-  /* Selecteer het tweede div-element en pas de stijl aan */
-  div:nth-of-type(2) {
-    display: flex; /* Stel de weergave van dit div-element in als flex-container */
-    flex-direction: column; /* Laat de kinderen van dit div-element in een kolom staan */
-    align-items: center; /* Centreer de kinderen van dit div-element horizontaal */
-  }
-  
-  /* Pas de stijl van alle input-elementen binnen het formulier aan */
-  input {
-    border: none; /* Verwijder de rand van de input-elementen */
-    background: #f1f1f1; /* Stel de achtergrondkleur in op lichtgrijs */
-    border-radius: .5em; /* Voeg afgeronde hoeken toe aan de input-elementen */
-    padding: .75em 1em; /* Voeg opvulling toe aan de input-elementen */
-  
+    flex-direction: column;
+    /* Laat items naar de volgende regel gaan als de ruimte op is */
+    gap: 1em;
+    /* Voeg ruimte toe tussen de items binnen het formulier */
+    align-items: flex-start;
+    /* Richt de items uit langs de bovenkant van de flex-container */
+    padding-top: 3em;
+    /* Voeg bovenvulling toe aan het formulier */
+    padding-bottom: 2em;
+    /* Voeg ondervulling toe aan het formulier */
+}
+
+label {
+    padding-top: .5em;
+    --hoofdKleur: black;
+}
+
+/* Pas de stijl van alle input-elementen binnen het formulier aan */
+input {
+    border: none;
+    /* Verwijder de rand van de input-elementen */
+    background: #f1f1f1;
+    /* Stel de achtergrondkleur in op lichtgrijs */
+    border-radius: .5em;
+    /* Voeg afgeronde hoeken toe aan de input-elementen */
+    padding: .75em 1em;
+    /* Voeg opvulling toe aan de input-elementen */
+
     /* Selecteer het input-element met het type "submit" en pas de stijl aan */
     &[type="submit"] {
-      background: #f9f8bb; /* Stel de achtergrondkleur van de verzendknop in */
-      color: black; /* Stel de tekstkleur van de verzendknop in */
-      cursor: pointer;
+        background: #f9f8bb;
+        /* Stel de achtergrondkleur van de verzendknop in */
+        color: black;
+        /* Stel de tekstkleur van de verzendknop in */
+        cursor: pointer;
     }
-  }
-  
-  /* Voer de volgende CSS-regels uit voor schermgroottes groter dan of gelijk aan 30em */
-  @media (min-width: 30em) {
-    /* Selecteer het tweede div-element en pas de stijl aan */
-    div:nth-of-type(2) {
-      bottom: 23em; /* Plaats het div-element onderaan de pagina */
-      padding-left: 45em; /* Voeg linkermarge toe aan het div-element */
-      position: absolute; /* Positioneer het div-element absoluut op de pagina */
-    }
-  }
+}
